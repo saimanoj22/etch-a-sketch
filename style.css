@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: rgb(224, 229, 236);
+}
+
+header{
+    display: flex;
+    font-size: 64px;
+    font-family: 'Finger Paint', sans-serif, cursive;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    flex-grow: 1;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 300px;
+    padding: 50px 20px;
+    background-color: rgb(224, 229, 236);
+    box-shadow: rgba(163, 177, 198, 0.6) 9px 9px 16px, rgba(255, 255, 255, 0.5) -9px -9px 16px;
+    border-radius: 12px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    padding: 24px;
+    width: 650px;
+    height: 650px;
+    background-color: rgb(224, 229, 236);
+    box-shadow: rgba(163, 177, 198, 0.6) 9px 9px 16px, rgba(255, 255, 255, 0.5) -9px -9px 16px;
+    border-radius: 12px;
+}
+
+.grid-element{
+    border-style: solid; 
+    border-width: 1px;
+    border-color: #a8a8a8;
+    border-top: 0px;
+    border-left: 0px;
+    background-color: rgb(224, 229, 236);
+}
+
+.inputColor{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    width:200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 16px;
+    padding: 10px 0px 10px 0px;
+    box-shadow:  rgb(255, 255, 255) -5px -5px 20px, rgb(186, 190, 204)  5px 5px 20px;
+    background-color: rgb(235, 236, 240);
+}
+
+button:hover {
+    box-shadow: rgb(255, 255, 255) -2px -2px 5px, rgb(186, 190, 204) 2px 2px 5px;
+}
+  
+button:active {
+    box-shadow: rgb(186, 190, 204) inset 1px 1px 2px , rgb(255, 255, 255) inset -1px -1px 2px;
+}
+
+.gridLines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 8px;
+    height: 100px;
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+}
